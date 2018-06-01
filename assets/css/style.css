@@ -1,0 +1,312 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    font-family: 'Indie Flower', cursive;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-nav li {
+    padding-right: 50px;
+}
+
+.me {
+    box-shadow: 0px 4px 6px 2px lightgrey;
+    border-radius: 50%;
+}
+
+/*.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}*/
+
+.fa-html5:hover {
+    color: #e34f26;
+}
+
+.fa-bold:hover {
+    color: #511378;
+}
+
+.fa-css3-alt:hover {
+    color: #037ef3;
+}
+.fa-gitlab:hover {
+    color: #fca326;
+}
+
+.fa-github:hover {
+    color: #db3552;
+}
+
+
+i {
+    color: black;
+}
+
+.padbot {
+    padding-bottom: 210px;
+}
+
+.padbotins {
+    padding-bottom: 100px;
+}
+
+
+div.a {
+    text-align: right;
+} 
+
+.register {
+    height: 100%;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-image: url(../images/register2.jpg); 
+    background-attachment: fixed;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    /*padding: 15px;*/
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 1.5625rem;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 0;*/
+    border: none;
+    cursor: pointer;
+    /*width: 100%;*/
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+
+
+.line {
+    border-top: 2px solid #aaa;
+}
+
+
+.terms {
+    color: dodgerblue;
+}
+
+.footerReg {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.fa-facebook-square,
+.fa-instagram,
+.fa-twitter,
+.fa-youtube {
+    margin-top: 20px;
+}
+
+.textsize {
+    font-size: 1.5em;
+    
+}
+/*hover*/
+section {
+    padding: 60px 0;
+    
+    width: 100vw;
+    height: 87vh;
+}
+
+#pets {
+    background-image: url(../images/bg2.jpg);
+    background-size: cover; 
+    height: 100%;
+    background-attachment: fixed;
+}
+
+section .section-title {
+    text-align: center;
+    color: #1f9400;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+
+#pets .card {
+    border: none;
+    background: #ffffff;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    transform: rotateY(-180deg);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+
+    backface-visibility: hidden;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #1f9400;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
+
+
+#contLand {
+    /*background-color: black;*/
+}
+
+
+
+
+.carousel-caption {
+    color: black;
+}
+
+
+.aboutbg {
+    background-image: url(../images/about.jpg);
+    background-size: cover; 
+    /*height: 100%;*/
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.active {
+    border-bottom: 2px solid yellow;
+}
+
+.tst {
+    transform: scale(1.5);
+}
+
+
+
+
+
+/*media queries*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
